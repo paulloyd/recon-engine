@@ -85,6 +85,38 @@ Adoption details that matter more than the screens: a name is required before an
 FEDEX means Federal Express" teaches the matcher from a reviewer's own approval; approved entries leave as a CSV
 file for QuickBooks import, so the app never posts to the books; and every click is audited.
 
+### Visual Walkthrough
+
+#### 1. Review Queue & Explainable AI Matching
+Every candidate match displays a confidence score, category suggestion, and a plain-English "Why is this here?" breakdown (amount fit, vendor match, date delta) before any human approval.
+
+![Review queue with card expanded](docs/screenshots/02_review_queue_card_expanded.png)
+
+#### 2. High-Confidence Bulk Approval
+Reviewers can quickly clear high-confidence items (e.g. >= 90% confidence) in one click while retaining full undo capability.
+
+![Bulk approve panel](docs/screenshots/03_bulk_approve_panel.png)
+
+#### 3. Invoice Exceptions (Order System vs QuickBooks)
+Highlights missing, duplicated, mismatched, or cancelled invoices, prioritized by largest dollar impact first.
+
+![Invoice exceptions](docs/screenshots/04_invoice_exceptions.png)
+
+#### 4. Summary & Operational Metrics
+Tracks auto-match rates, unresolved dollars, and estimated staff hours saved.
+
+![Summary dashboard](docs/screenshots/05_summary_dashboard.png)
+
+#### 5. Immutable Audit Trail
+Every single automated action, reviewer decision, category change, and undo is recorded in an append-only audit log enforced by SQLite database triggers.
+
+![Audit log](docs/screenshots/06_audit_log.png)
+
+#### 6. Settings & Vendor Alias Learning
+Staff can adjust the auto-match confidence threshold and teach the engine vendor shortcuts (e.g., `FEDEX` means `Federal Express`) without editing code.
+
+![Settings](docs/screenshots/07_settings.png)
+
 ## Design decisions worth discussing
 
 - **Wrong auto-matches are the costly error**, so the tests guard auto-match precision hardest (floor: 98%),
