@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+reports/review.db
+settings.json
+
+.venv/
+job desc

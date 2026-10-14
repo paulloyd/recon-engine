@@ -1,0 +1,108 @@
+id,kind,source,confidence,summary
+1,POSSIBLE_MATCH,card,0.8,CC-0020 FEDEX 2551 $241.86 ~ QB-1018 Federal Express $241.86  (partial match: check amount/vendor/date)
+2,POSSIBLE_MATCH,card,0.775,CC-0103 FEDEX 7333 $144.78 ~ QB-1101 Federal Express $144.78  (partial match: check amount/vendor/date)
+3,POSSIBLE_MATCH,card,0.744,CC-0187 ZOOM.US 8353 $27.60 ~ QB-1180 Zoom $28.20  (partial match: check amount/vendor/date)
+4,POSSIBLE_MATCH,card,0.735,CC-0087 USPS PO 6493 $49.41 ~ QB-1085 USPS $48.77  (partial match: check amount/vendor/date)
+5,POSSIBLE_MATCH,card,0.731,CC-0133 ULINE *SHIP SUPPLY $640.15 ~ QB-1131 U-line Supply $653.99  (partial match: check amount/vendor/date)
+6,POSSIBLE_MATCH,card,0.72,CC-0033 FEDEX 4737 $129.10 ~ QB-1032 FedEx $130.54  (partial match: check amount/vendor/date)
+7,POSSIBLE_MATCH,card,0.716,CC-0060 THE UPS STORE #1782 $224.94 ~ QB-1059 UPS $221.17  (partial match: check amount/vendor/date)
+8,POSSIBLE_MATCH,card,0.694,CC-0144 AMZN MKTP US*3RYLC $637.44 ~ QB-1142 Amazon $627.11  (partial match: check amount/vendor/date)
+9,POSSIBLE_MATCH,card,0.691,CC-0179 FEDEX 9856 $76.47 ~ QB-1174 FedEx $78.18  (partial match: check amount/vendor/date)
+10,POSSIBLE_MATCH,card,0.679,CC-0053 USPS PO 2376 $18.97 ~ QB-1052 USPS $19.34  (partial match: check amount/vendor/date)
+11,POSSIBLE_MATCH,card,0.666,CC-0222 INTUIT *QBOOKS 9AXNJ $90.00 ~ QB-1213 QuickBooks $92.00  (partial match: check amount/vendor/date)
+12,POSSIBLE_MATCH,card,0.666,CC-0062 UBER *TRIP 73FX2 $11.89 ~ QB-1061 Uber $11.63  (partial match: check amount/vendor/date)
+13,POSSIBLE_MATCH,card,0.663,CC-0050 ALIBABA.COM 2314 $3098.44 ~ QB-1049 Alibaba $3169.47  (partial match: check amount/vendor/date)
+14,POSSIBLE_MATCH,card,0.617,CC-0056 ULINE *SHIP SUPPLY $1087.03 ~ QB-1055 Uline $1060.36  (partial match: check amount/vendor/date)
+15,POSSIBLE_MATCH,card,0.825,CC-0220 USPS PO 4944 $58.68 ~ QB-1211 USPS $58.68  (late entry? ledger date is 7 days after the card post date)
+16,POSSIBLE_MATCH,card,0.8,CC-0055 THE UPS STORE #6916 $36.55 ~ QB-1053 UPS $36.55  (late entry? ledger date is 9 days after the card post date)
+17,POSSIBLE_MATCH,card,0.8,CC-0075 UPS*4GL67 $64.81 ~ QB-1074 UPS $64.81  (late entry? ledger date is 12 days after the card post date)
+18,POSSIBLE_MATCH,card,0.8,CC-0120 AMZN MKTP US*7UFSN $842.57 ~ QB-1117 Amazon $842.57  (late entry? ledger date is 10 days after the card post date)
+19,POSSIBLE_MATCH,card,0.8,CC-0238 THE UPS STORE #3756 $335.34 ~ QB-1228 UPS $335.34  (late entry? ledger date is 11 days after the card post date)
+20,POSSIBLE_MATCH,card,0.8,CC-0287 USPS PO 8933 $51.70 ~ QB-1275 USPS $51.70  (late entry? ledger date is 12 days after the card post date)
+21,MISSING_ENTRY,card,0.8,"CC-0008 $870.26 AMZN MKTP US*9ZF5G has no ledger entry -> propose Inventory Purchases (rule, conf 0.80)"
+22,MISSING_ENTRY,card,0.8,"CC-0013 $287.84 AMAZON.COM*3GRJ2 has no ledger entry -> propose Inventory Purchases (rule, conf 0.80)"
+23,MISSING_ENTRY,card,0.95,"CC-0018 $664.36 FACEBK *2E8CU has no ledger entry -> propose Advertising (rule, conf 0.95)"
+24,MISSING_ENTRY,card,0.9,"CC-0046 $61.30 CANVA* 7656L has no ledger entry -> propose Software & Subscriptions (rule, conf 0.90)"
+25,MISSING_ENTRY,card,0.95,"CC-0054 $102.87 USPS PO 8518 has no ledger entry -> propose Shipping & Postage (rule, conf 0.95)"
+26,MISSING_ENTRY,card,0.95,"CC-0084 $767.59 FACEBK *59EAZ has no ledger entry -> propose Advertising (rule, conf 0.95)"
+27,MISSING_ENTRY,card,0.8,"CC-0089 $885.86 AMZN MKTP US*94N29 has no ledger entry -> propose Inventory Purchases (rule, conf 0.80)"
+28,MISSING_ENTRY,card,0.95,"CC-0099 $90.00 INTUIT *QBOOKS 59VM9 has no ledger entry -> propose Software & Subscriptions (rule, conf 0.95)"
+29,MISSING_ENTRY,card,0.9,"CC-0110 $45.69 ZOOM.US 9901 has no ledger entry -> propose Software & Subscriptions (rule, conf 0.90)"
+30,MISSING_ENTRY,card,0.9,"CC-0136 $12.66 CANVA* 8EKBF has no ledger entry -> propose Software & Subscriptions (rule, conf 0.90)"
+31,MISSING_ENTRY,card,0.95,"CC-0150 $168.58 FEDEX 8126 has no ledger entry -> propose Shipping & Postage (rule, conf 0.95)"
+32,MISSING_ENTRY,card,0.95,"CC-0170 $1003.19 FACEBK *6PWRS has no ledger entry -> propose Advertising (rule, conf 0.95)"
+33,MISSING_ENTRY,card,0.95,"CC-0176 $1050.95 FACEBK *6N28G has no ledger entry -> propose Advertising (rule, conf 0.95)"
+34,MISSING_ENTRY,card,0.95,"CC-0177 $72.89 FEDEX 1567 has no ledger entry -> propose Shipping & Postage (rule, conf 0.95)"
+35,MISSING_ENTRY,card,0.9,"CC-0180 $680.27 ULINE *SHIP SUPPLY has no ledger entry -> propose Packaging Supplies (rule, conf 0.90)"
+36,MISSING_ENTRY,card,0.9,"CC-0182 $2019.72 ALIBABA.COM 9751 has no ledger entry -> propose Inventory Purchases (rule, conf 0.90)"
+37,MISSING_ENTRY,card,0.95,"CC-0195 $245.71 FEDEX 8078 has no ledger entry -> propose Shipping & Postage (rule, conf 0.95)"
+38,MISSING_ENTRY,card,0.9,"CC-0214 $46.73 CANVA* 4BWQB has no ledger entry -> propose Software & Subscriptions (rule, conf 0.90)"
+39,MISSING_ENTRY,card,0.95,"CC-0219 $56.16 THE UPS STORE #4612 has no ledger entry -> propose Shipping & Postage (rule, conf 0.95)"
+40,MISSING_ENTRY,card,0.95,"CC-0232 $864.44 FACEBK *8Y5DU has no ledger entry -> propose Advertising (rule, conf 0.95)"
+41,MISSING_ENTRY,card,0.95,"CC-0244 $208.88 UPS*9QGYZ has no ledger entry -> propose Shipping & Postage (rule, conf 0.95)"
+42,MISSING_ENTRY,card,0.95,"CC-0245 $218.23 FEDEX 3780 has no ledger entry -> propose Shipping & Postage (rule, conf 0.95)"
+43,MISSING_ENTRY,card,0.95,"CC-0266 $92.53 FEDEX 8916 has no ledger entry -> propose Shipping & Postage (rule, conf 0.95)"
+44,MISSING_ENTRY,card,0.95,"CC-0268 $320.03 THE UPS STORE #3352 has no ledger entry -> propose Shipping & Postage (rule, conf 0.95)"
+45,MISSING_ENTRY,card,0.9,"CC-0303 $374.62 ULINE *SHIP SUPPLY has no ledger entry -> propose Packaging Supplies (rule, conf 0.90)"
+46,DUPLICATE_ENTRY,card,0.9,QB-1031 FedEx $207.26 duplicates QB-1030
+47,DUPLICATE_ENTRY,card,0.9,QB-1054 UPS $36.55 duplicates QB-1053
+48,DUPLICATE_ENTRY,card,0.9,QB-1088 FedEx $296.35 duplicates QB-1087
+49,DUPLICATE_ENTRY,card,0.9,QB-1096 Meta Ads $1380.27 duplicates QB-1095
+50,DUPLICATE_ENTRY,card,0.9,QB-1120 Uber $39.63 duplicates QB-1119
+51,DUPLICATE_ENTRY,card,0.9,QB-1140 UPS $115.72 duplicates QB-1139
+52,DUPLICATE_ENTRY,card,0.9,QB-1156 UPS $314.32 duplicates QB-1155
+53,DUPLICATE_ENTRY,card,0.9,QB-1191 Amazon $485.90 duplicates QB-1190
+54,DUPLICATE_ENTRY,card,0.9,QB-1239 FedEx $33.35 duplicates QB-1238
+55,DUPLICATE_ENTRY,card,0.9,QB-1249 Uline $218.48 duplicates QB-1248
+56,LEDGER_ONLY,card,,QB-1016 Facebook Ads $679.63 has no card transaction (bank/other?)
+57,LEDGER_ONLY,card,,QB-1303 Sales Tax Payment $880.00 has no card transaction (bank/other?)
+58,LEDGER_ONLY,card,,QB-1045 Canva $62.75 has no card transaction (bank/other?)
+59,LEDGER_ONLY,card,,QB-1300 Owner Draw $1500.00 has no card transaction (bank/other?)
+60,LEDGER_ONLY,card,,QB-1298 Payroll Transfer $6200.00 has no card transaction (bank/other?)
+61,LEDGER_ONLY,card,,QB-1302 Bank Fee $35.00 has no card transaction (bank/other?)
+62,LEDGER_ONLY,card,,QB-1304 Sales Tax Payment $880.00 has no card transaction (bank/other?)
+63,LEDGER_ONLY,card,,QB-1296 Rent $2400.00 has no card transaction (bank/other?)
+64,LEDGER_ONLY,card,,QB-1295 Rent $2400.00 has no card transaction (bank/other?)
+65,LEDGER_ONLY,card,,QB-1297 Payroll Transfer $6200.00 has no card transaction (bank/other?)
+66,LEDGER_ONLY,card,,QB-1299 Owner Draw $1500.00 has no card transaction (bank/other?)
+67,LEDGER_ONLY,card,,QB-1301 Bank Fee $35.00 has no card transaction (bank/other?)
+68,LEDGER_ONLY,card,,QB-1291 Uline $379.26 has no card transaction (bank/other?)
+69,AMOUNT_MISMATCH,invoice,1.0,"ORD-10003: invoice total differs from order total (expected $149.42, actual $170.36, severity low)"
+70,CANCELLED_INVOICED,invoice,1.0,"ORD-10011: order was cancelled but an invoice exists (expected $0.00, actual $34.66, severity low)"
+71,AMOUNT_MISMATCH,invoice,1.0,"ORD-10015: invoice total differs from order total (expected $426.62, actual $405.49, severity low)"
+72,CANCELLED_INVOICED,invoice,1.0,"ORD-10016: order was cancelled but an invoice exists (expected $0.00, actual $500.41, severity high)"
+73,CANCELLED_INVOICED,invoice,1.0,"ORD-10017: order was cancelled but an invoice exists (expected $0.00, actual $176.76, severity medium)"
+74,CANCELLED_INVOICED,invoice,1.0,"ORD-10025: order was cancelled but an invoice exists (expected $0.00, actual $501.82, severity high)"
+75,MISSING_INVOICE,invoice,1.0,"ORD-10029: shipped order has no invoice in QuickBooks (expected $131.80, actual $0.00, severity medium)"
+76,MISSING_INVOICE,invoice,1.0,"ORD-10066: shipped order has no invoice in QuickBooks (expected $550.43, actual $0.00, severity high)"
+77,DUPLICATE_INVOICE,invoice,1.0,"ORD-10070: 2 invoices exist for one order (expected $147.87, actual $295.74, severity high)"
+78,MISSING_INVOICE,invoice,1.0,"ORD-10074: shipped order has no invoice in QuickBooks (expected $150.26, actual $0.00, severity medium)"
+79,DUPLICATE_INVOICE,invoice,1.0,"ORD-10085: 2 invoices exist for one order (expected $422.71, actual $845.42, severity high)"
+80,MISSING_INVOICE,invoice,1.0,"ORD-10091: shipped order has no invoice in QuickBooks (expected $107.79, actual $0.00, severity medium)"
+81,AMOUNT_MISMATCH,invoice,1.0,"ORD-10104: invoice total differs from order total (expected $522.58, actual $508.97, severity low)"
+82,MISSING_INVOICE,invoice,1.0,"ORD-10106: shipped order has no invoice in QuickBooks (expected $15.42, actual $0.00, severity low)"
+83,AMOUNT_MISMATCH,invoice,1.0,"ORD-10136: invoice total differs from order total (expected $390.72, actual $397.65, severity low)"
+84,DUPLICATE_INVOICE,invoice,1.0,"ORD-10153: 2 invoices exist for one order (expected $458.27, actual $916.54, severity high)"
+85,AMOUNT_MISMATCH,invoice,1.0,"ORD-10167: invoice total differs from order total (expected $450.47, actual $457.67, severity low)"
+86,AMOUNT_MISMATCH,invoice,1.0,"ORD-10175: invoice total differs from order total (expected $597.48, actual $595.19, severity low)"
+87,MISSING_INVOICE,invoice,1.0,"ORD-10185: shipped order has no invoice in QuickBooks (expected $581.76, actual $0.00, severity high)"
+88,DUPLICATE_INVOICE,invoice,1.0,"ORD-10200: 2 invoices exist for one order (expected $204.58, actual $409.16, severity high)"
+89,MISSING_INVOICE,invoice,1.0,"ORD-10213: shipped order has no invoice in QuickBooks (expected $514.49, actual $0.00, severity high)"
+90,MISSING_INVOICE,invoice,1.0,"ORD-10217: shipped order has no invoice in QuickBooks (expected $190.09, actual $0.00, severity medium)"
+91,DUPLICATE_INVOICE,invoice,1.0,"ORD-10221: 2 invoices exist for one order (expected $441.89, actual $883.78, severity high)"
+92,AMOUNT_MISMATCH,invoice,1.0,"ORD-10283: invoice total differs from order total (expected $342.62, actual $351.85, severity low)"
+93,MISSING_INVOICE,invoice,1.0,"ORD-10285: shipped order has no invoice in QuickBooks (expected $201.10, actual $0.00, severity medium)"
+94,MISSING_INVOICE,invoice,1.0,"ORD-10286: shipped order has no invoice in QuickBooks (expected $138.56, actual $0.00, severity medium)"
+95,MISSING_INVOICE,invoice,1.0,"ORD-10301: shipped order has no invoice in QuickBooks (expected $327.99, actual $0.00, severity high)"
+96,DUPLICATE_INVOICE,invoice,1.0,"ORD-10303: 2 invoices exist for one order (expected $35.67, actual $71.34, severity low)"
+97,MISSING_INVOICE,invoice,1.0,"ORD-10333: shipped order has no invoice in QuickBooks (expected $55.60, actual $0.00, severity low)"
+98,MISSING_INVOICE,invoice,1.0,"ORD-10355: shipped order has no invoice in QuickBooks (expected $545.70, actual $0.00, severity high)"
+99,AMOUNT_MISMATCH,invoice,1.0,"ORD-10358: invoice total differs from order total (expected $305.83, actual $317.30, severity low)"
+100,AMOUNT_MISMATCH,invoice,1.0,"ORD-10365: invoice total differs from order total (expected $107.29, actual $84.35, severity low)"
+101,MISSING_INVOICE,invoice,1.0,"ORD-10367: shipped order has no invoice in QuickBooks (expected $420.70, actual $0.00, severity high)"
+102,AMOUNT_MISMATCH,invoice,1.0,"ORD-10379: invoice total differs from order total (expected $437.02, actual $452.09, severity low)"
+103,ORPHAN_INVOICE,invoice,1.0,"ORD-99000: invoice references an order that does not exist (expected $0.00, actual $247.21, severity medium)"
+104,ORPHAN_INVOICE,invoice,1.0,"ORD-99001: invoice references an order that does not exist (expected $0.00, actual $115.07, severity medium)"
+105,ORPHAN_INVOICE,invoice,1.0,"ORD-99002: invoice references an order that does not exist (expected $0.00, actual $103.87, severity medium)"
+106,ORPHAN_INVOICE,invoice,1.0,"ORD-99003: invoice references an order that does not exist (expected $0.00, actual $76.49, severity medium)"
+107,ORPHAN_INVOICE,invoice,1.0,"ORD-99004: invoice references an order that does not exist (expected $0.00, actual $257.25, severity high)"
